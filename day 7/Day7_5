@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+  <groups>
+  	<run>
+  		<include name= "smoketest"/>
+  		<include name= "regressiontest"/>
+  	</run>
+  </groups>
+    <classes>
+      <class name="com.example.testing.Day7_5"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
